@@ -8,4 +8,3 @@ Clone do Instagram construído usando HTML, CSS.
 Small | Medium| Large
 :---:|:---:|:---:
 ✅|✅|✅
-🚀
