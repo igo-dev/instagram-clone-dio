@@ -1,0 +1,91 @@
+/* ###################################### */
+/*                 RESET                  */
+/* ###################################### */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    font-size: .9rem;
+}
+/* ###################################### */
+/*                 MAIN                   */
+/* ###################################### */
+.main-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    background-color: #efefef;
+    text-align: center;
+}
+.main-left{
+    order: 0;
+    width: min-content;
+}
+.main-right{
+    order: 1;
+    width: 100%;
+    max-width: 400px;
+    gap: 30px;
+}
+/* ###################################### */
+/*                 CARD                   */
+/* ###################################### */
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 0px 2px;
+    border-radius: 5px;
+    gap: 20px;
+}
+.profile{
+    border-radius: 50%;
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 0px 2px;
+    height: auto;
+    width: 150px;
+}
+.logo{
+    height: auto;
+    width: 150px;
+}
+.button{
+    border: 0;
+    background-color: rgb(56, 142, 255);
+    color:#eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    color: #22f;
+}
+.hover:hover{
+    opacity: 0.8;
+}
+/* ###################################### */
+/*                 FLEX                   */
+/* ###################################### */
+.flex{
+    display: flex;
+}
+.flex.row{
+    flex-direction:row;
+}
+.flex.column{
+    flex-direction:column;
+}
+/* ###################################### */
+/*                 CARD                   */
+/* ###################################### */
+.phone{
+    width: 450px;
+}
+@media  (max-width: 900px){
+    .main-left{
+        display: none;
+    }
+}
